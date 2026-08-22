@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Adaptive Residual-Correction FEM Reproducibility Package"
+message: "If you use this software or its numerical results, please cite this release."
+type: software
+version: 1.0.0
+date-released: 2026-08-23
+authors:
+  - family-names: Zalloum
+    given-names: Othman H. Y.
+    affiliation: Palestine Polytechnic University
+    orcid: "https://orcid.org/0000-0001-7282-1332"
+repository-code: "https://github.com/ozalloum/adaptive-residual-correction-fem"
+url: "https://github.com/ozalloum/adaptive-residual-correction-fem"
+abstract: >-
+  Reproducibility package for numerical experiments on global residual-correction
+  equivalence, active-subspace energy recovery, halo-localized residual correction,
+  residual-controlled halo selection, and residual-based adaptive finite elements
+  for scalar elliptic problems. The package contains the production numerical solver,
+  verification scripts, machine-readable results, repeated timing data, regenerated
+  figures, and environment metadata.
+keywords:
+  - adaptive finite element method
+  - residual correction
+  - local defect correction
+  - a posteriori error estimation
+  - Dörfler marking
+  - subspace correction
+  - verification and validation
+  - reproducible computing

@@ -1,0 +1,24 @@
+Test,Problem,Value,Tolerance,Pass
+minimum_angle,Smooth Poisson,45.00000000000001,30.0,True
+global_correction_equals_direct,Smooth Poisson,1.2212453270876722e-14,5e-12,True
+local_vs_global_restricted_assembly,Smooth Poisson,7.771561172376096e-16,5e-12,True
+active_subspace_pythagorean,Smooth Poisson,8.223380748365621e-15,2e-11,True
+matrixfree_residual_equals_sparse,Smooth Poisson,5.516420653606247e-16,1e-11,True
+minimum_angle,L-shaped singularity,45.00000000000001,30.0,True
+global_correction_equals_direct,L-shaped singularity,1.7763568394002505e-15,5e-12,True
+local_vs_global_restricted_assembly,L-shaped singularity,4.440892098500626e-16,5e-12,True
+active_subspace_pythagorean,L-shaped singularity,2.2337494149079227e-14,2e-11,True
+matrixfree_residual_equals_sparse,L-shaped singularity,6.661338147750939e-16,1e-11,True
+minimum_angle,High-contrast interface (1e4),45.00000000000001,30.0,True
+global_correction_equals_direct,High-contrast interface (1e4),2.2898349882893854e-16,5e-12,True
+local_vs_global_restricted_assembly,High-contrast interface (1e4),3.122502256758253e-17,5e-12,True
+active_subspace_pythagorean,High-contrast interface (1e4),7.657621302813654e-15,2e-11,True
+matrixfree_residual_equals_sparse,High-contrast interface (1e4),1.1102230246251565e-16,1e-11,True
+minimum_angle,Localized reaction-diffusion layer,45.00000000000001,30.0,True
+global_correction_equals_direct,Localized reaction-diffusion layer,3.469446951953614e-16,5e-12,True
+local_vs_global_restricted_assembly,Localized reaction-diffusion layer,2.220446049250313e-16,5e-12,True
+active_subspace_pythagorean,Localized reaction-diffusion layer,1.2683261618146212e-14,2e-11,True
+matrixfree_residual_equals_sparse,Localized reaction-diffusion layer,7.247891523065597e-17,1e-11,True
+P1_linear_patch_test,P1 patch test,8.881784197001252e-16,5e-13,True
+independent_FD_vs_FEM_n64,Smooth Poisson,0.0006016258605825442,0.002,True
+independent_FD_exact_error_n64,Smooth Poisson,0.0002008218096949399,0.002,True

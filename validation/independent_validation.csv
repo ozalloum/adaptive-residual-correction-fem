@@ -1,0 +1,12 @@
+check,value,tolerance,Pass,note
+archived_verification_matrix,23.0,23.0,True,23/23 pass
+recomputed_convergence_slopes,5.551115123125783e-17,5e-12,True,
+energy_recovery_identity,4.7447944906409134e-08,1e-07,True,Tolerance reflects rounded CSV values
+work_normalized_recovery_identity,7.105427357601002e-15,5e-11,True,
+halo_monotonicity,0.0,0.0,True,Roundoff-level decreases below 1e-7 ignored
+global_halo_equals_direct_energy,0.0,5e-12,True,
+weighted_interface_energy_better,0.6643210259754876,1.0,True,
+weighted_interface_dof_better,0.719268793135609,1.0,True,
+dorfler_tradeoff_ordering,1.0,1.0,True,
+one_halo_min_recovery_finest,0.9945129800326832,0.994,True,
+one_halo_max_active_fraction_finest,0.7619565217391304,0.77,True,

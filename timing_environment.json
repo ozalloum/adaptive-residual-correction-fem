@@ -1,0 +1,20 @@
+{
+  "purpose": "final-level repeated timing audit reported in manuscript",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "allocated_cores_visible": 5,
+  "threads_per_core_visible": 1,
+  "ram_visible_gib": 5.9,
+  "os": "Linux 6.18.35 x86_64 GNU/Linux",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "repetitions": 25,
+  "warmup_runs": 3,
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

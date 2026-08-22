@@ -1,0 +1,17 @@
+Problem,Method,Metric,Slope,DOF_min,DOF_max
+Smooth Poisson,Uniform,Energy,-0.5128048456195702,625,4225
+Smooth Poisson,Uniform,L2,-1.0257268669584017,625,4225
+Smooth Poisson,AFEM-direct,Energy,-0.49167445596823167,788,4776
+Smooth Poisson,AFEM-direct,L2,-1.0019115717099425,788,4776
+L-shaped singularity,Uniform,Energy,-0.33719565524753564,481,3201
+L-shaped singularity,Uniform,L2,-0.6940223731106276,481,3201
+L-shaped singularity,AFEM-direct,Energy,-0.5230181118780495,328,1968
+L-shaped singularity,AFEM-direct,L2,-1.0495733187625769,328,1968
+High-contrast interface (1e4),Uniform,Energy,-0.5135524864459378,625,4225
+High-contrast interface (1e4),Uniform,L2,-1.0270578301288906,625,4225
+High-contrast interface (1e4),AFEM-direct,Energy,-0.5123484040877804,651,3856
+High-contrast interface (1e4),AFEM-direct,L2,-1.0083592123276672,651,3856
+Localized reaction-diffusion layer,Uniform,Energy,-0.5049316224484078,625,4225
+Localized reaction-diffusion layer,Uniform,L2,-1.0125158610632317,625,4225
+Localized reaction-diffusion layer,AFEM-direct,Energy,-0.5475506750112321,301,1531
+Localized reaction-diffusion layer,AFEM-direct,L2,-1.017243048890998,301,1531

@@ -1,0 +1,10 @@
+{
+  "purpose": "source-restoration numerical reproduction environment; not final timing benchmark environment",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "cpu_count_visible": 5,
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8"
+}
